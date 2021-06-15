@@ -3,3 +3,28 @@
   margin: 3rem auto;
   max-width: 70%;
 }
+
+/* Navbar component */
+.navbar {
+  background-color: white;
+}
+.nav-container {
+  margin: 0 auto;
+  padding: 0.8rem 0;
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-size: 1.25rem;
+}
+.nav-link-item {
+  padding-left: 2rem;
+}
+.nav-link-text {
+  text-decoration: none;
+  color: black;
+}
